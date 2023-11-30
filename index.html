@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google font cdn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Rubik:wght@500&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- home -->
+
+    <section class="home ">
+        <div class="width ">
+            <div class="wallet">Wallet</div>
+            <div class="active">Active</div>
+            <div class="profile-pic"><img src="img/profile_picture.webp" alt=""></div>
+            <div class="box-1 ">
+                <div class="box1-content d-flex flex-row">
+                    <div class=" d-flex flex-column ">
+                        <div class="balance-card">Balance</div>
+                        <div class="amount-bank">$ 1.234</div>
+                    </div>
+                    <div class=" d-flex flex-column ">
+                        <div class="balance-card">Card</div>
+                        <div class="amount-bank">Mabank</div>
+                    </div>
+                </div>
+            </div>
+            <div class="menu d-flex align-items-start ">
+                <div class="items ">
+                    <img class="icon " src="img/transfer_icon.png" />
+                    <div class="item-name   text-center">Transfer</div>
+                </div>
+                <div class="items  ">
+                    <img class="icon " src="img/payment_icon.png" />
+                    <div class="item-name  text-center">Payment</div>
+                </div>
+                <div class="items ">
+                    <img class="icon " src="img/payout_icon.png" />
+                    <div class="item-name   text-center">Payout</div>
+                </div>
+                <div class="items ">
+                    <img class="icon " src="img/topup_icon.png" />
+                    <div class="item-name   text-center">Top up</div>
+                </div>
+            </div>
+            <div class="last-transaction px-1">
+                <div class="transaction-heading position-relative">Last Transaction</div>
+                <div class="view_all position-relative">View All</div>
+                <div class="transaction-details  row mt-3 ">
+                    <div>
+                        <div class="app-details  col-sm-12 mt-3">
+                            <div class="transactions d-flex ">
+                                <img class="app-icon " src="img/logo_netflix.jpg" />
+                                <div class="app-name text-dark position-absolute">Netflix</div>
+                                <div class="transaction-mode position-absolute">Month subscription</div>
+                                <div class="transaction-amount position-absolute">$12</div>
+                            </div>
+                        </div>
+                        <div class="app-details col-sm-12 mt-3">
+                            <div class="transactions d-flex">
+                                <img class="app-icon" src="img/logo_paypal.webp" />
+                                <div class="app-name position-absolute">Paypal</div>
+                                <div class="transaction-mode  position-absolute">Tax</div>
+                                <div class="transaction-amount position-absolute">$10</div>
+                            </div>
+                        </div>
+                        <div class="app-details col-sm-12 mt-3">
+                            <div class="transactions d-flex">
+                                <img class="app-icon" src="img/logo_paylater.png" />
+                                <div class="app-name position-absolute">Paylater</div>
+                                <div class="transaction-mode position-absolute">Buy item</div>
+                                <div class="transaction-amount position-absolute">$2</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar d-flex">
+                <img class="nav-item" src="img/wallet_image.png" />
+                <img class="nav-item" src="img/stats_image.png" />
+                <img class="nav-item" src="img/notification_image.png" />
+                <img class="nav-item" src="img/settings_image.png" />
+            </div>
+        </div>
+    </section>
+
+    <!-- add card -->
+
+    <div class="add-card  bg-white w-100 ">
+        <div class="width bg-white ">
+            <img class="previous" src="img/previous.png" />
+            <div class="heading text-center">Add card</div>
+            <div class="card_vertical"><img src="img/card_vertical.png" alt=""></div>
+            <p class="new-card text-center">Add a new card <br />on your wallet for easy life</p>
+        </div>
+    </div>
+
+    <!-- detail card -->
+
+    <div class="detail-card ">
+        <div class="width ">
+            <img class="previous" src="img/previous.png" />
+            <div class="heading text-center">Detail card</div>
+            <div class="card_horizontal"><img src="img/card_horizontal.png" alt="">
+            </div>
+            <div class="details d-inline-flex flex-column align-items-start ">
+                <div class="content position-relative">
+                    <div class="text-1  mt-2">Name</div>
+                    <div class="text-2 mt-2">Jaka mambang</div>                    
+                </div>
+                <div class="content position-relative">
+                    <div class="text-1  mt-2">Bank</div>
+                    <div class="text-2 mt-2">Mabank</div>
+                </div>
+                <div class="content position-relative">
+                    <div class="text-1  mt-2">Account</div>
+                    <div class="text-2 mt-2">.... .... .... 2138</div>
+                </div>
+                <div class="content position-relative">
+                    <div class="text-1  mt-2">Status</div>
+                    <div class="text-2 mt-2">Active</div>
+                </div>
+                <div class="content position-relative">
+                    <div class="text-1 mt-2 ">Valid</div>
+                    <div class="text-2 mt-2">2020 - 2025</div>
+                </div>
+            </div>
+            <div class="delete text-center mt-5">Delete Card</div>
+        </div>
+    </div>
+
+
+
+    <!-- stats -->
+
+    <div class="stats">
+        <div class="width">
+            <div class="heading ">Income Stats</div>
+            <div class="income-stats">
+                <div>
+                <!-- <div class="month-detail d-flex flex-row"> -->
+                    <div class="oct-feb">Oct-Feb<i class="fa-solid fa-angle-down"></i></div>
+                    
+                <!-- </div> -->
+                <img class="graph" src="img/income_stats.png" alt="">
+                </div>
+                <div class="coordinate d-flex">
+                    <div class="months">Oct</div>
+                    <div class="months">Nov</div>
+                    <div class="months">Dec</div>
+                    <div class="months">Jan</div>
+                    <div class="months">Feb</div>
+                </div>
+
+            </div>
+            <div class="total-balance text-center">Total Balance</div>
+            <div class="balance-amount text-center">$  13.248</div>
+
+
+            <div class="last-transaction px-1">
+                <div class="transaction-heading position-relative">Last Transaction</div>
+                <div class="view_all position-relative">View All</div>
+                <div class="transaction-details  row mt-3 ">
+                    <div>
+                        <div class="app-details  col-sm-12 mt-3">
+                            <div class="transactions d-flex ">
+                                <img class="app-icon " src="img/logo_netflix.jpg" />
+                                <div class="app-name text-dark position-absolute">Netflix</div>
+                                <div class="transaction-mode position-absolute">Month subscription</div>
+                                <div class="transaction-amount position-absolute">$12</div>
+                            </div>
+                        </div>
+                        <div class="app-details col-sm-12 mt-3">
+                            <div class="transactions d-flex">
+                                <img class="app-icon" src="img/logo_paypal.webp" />
+                                <div class="app-name position-absolute">Paypal</div>
+                                <div class="transaction-mode  position-absolute">Tax</div>
+                                <div class="transaction-amount position-absolute">$10</div>
+                            </div>
+                        </div>
+                        <div class="app-details col-sm-12 mt-3">
+                            <div class="transactions d-flex">
+                                <img class="app-icon" src="img/logo_paylater.png" />
+                                <div class="app-name position-absolute">Paylater</div>
+                                <div class="transaction-mode position-absolute">Buy item</div>
+                                <div class="transaction-amount position-absolute">$2</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box-2 "></div>
+            <div class="navbar position-absolute">
+                <img class="nav-item" src="img/wallet_image.png" />
+                <img class="nav-item" src="img/stats_image.png" />
+                <img class="nav-item" src="img/notification_image.png" />
+                <img class="nav-item" src="img/settings_image.png" />
+            </div>
+
+        </div>
+    </div>
+
+    <!-- transfer -->
+
+    <div class="transfer">
+        <div class="width ">
+            <img class="previous" src="img/previous.png" />
+            <div class="amount text-center">$1200</div>
+            <button class="button button1 ">Mabank<i class="fa-solid fa-angle-down"></i></button>
+            <div class="box mt-5 mx-5 d-flex sm-3">
+                <div class="digits">1</div>
+                <div class="digits">2</div>
+                <div class="digits">3</div>
+                <div class="digits">4</div>
+                <div class="digits">5</div>
+                <div class="digits">6</div>
+                <div class="digits">7</div>
+                <div class="digits">8</div>
+                <div class="digits">9</div>
+                <div class="digits">00</div>
+                <div class="digits">0</div>
+                <div class="digits"><i class="fa-regular fa-circle-xmark"></i></div>
+            </div>
+            <div class="transfer-button px-5 mt-5">
+                <button class="button button2 mx-4  ">Transfer</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- sign up -->
+
+    <div class="sign-up ">
+        <div class="width ">
+            <p class="heading text-center ">Immediately feel the<br />ease of transacting just by registering</p>
+            <div class="sub-heading text-center mt-5">Sign up with</div>
+            <div class="sign-in-box d-flex flex-row mt-4">
+                <div class="google">
+                    <div class="site-name">Google</div>
+                    <img class="google-img" src="img/logo_google.png" />
+                </div>
+                <div class="facebook">
+                    <div class="site-name">Facebook</div>
+                    <img class="facebook-img" src="img/logo_facebook.webp" />
+                </div>
+            </div>
+            <div class="signup-button">
+                <form>
+                    <div>
+                        <label for="name"></label><br>
+                        <input type="text" id="name" name="name" placeholder="Username"><br>
+                    </div>
+                    <div>
+                        <label for="name"></label><br>
+                        <input type="email" id="email" name="name" placeholder="Email">
+                    </div>
+                    <div>
+                        <label for="name"></label><br>
+                        <input type="password" id="password" name="name" placeholder="Password">
+                    </div>
+                </form>
+            </div>
+            <button class="button button2 ">Register</button>
+            <p class="login text-center">
+                You have account? <span class="span">Login</span>
+            </p>
+        </div>
+    </div>
+
+    <!-- login -->
+
+    <div class="login">
+        <div class="sign-up ">
+            <div class="width">
+                <p class="heading text-center w-70 mt-5">Welcome back <br />to Mabank wallet</p>
+                <div class="sub-heading text-center mt-5">Sign up with</div>
+                <div class="sign-in-box mt-4 d-flex flex-row">
+                    <div class="google">
+                        <div class="site-name">Google</div>
+                        <img class="google-img" src="img/logo_google.png" />
+                    </div>
+                    <div class="facebook">
+                        <div class="site-name">Facebook</div>
+                        <img class="facebook-img" src="img/logo_facebook.webp" />
+                    </div>
+                </div>
+                <div class="signup-button mt-4">
+                    <form>
+                        <div>
+                            <label for="name"></label><br>
+                            <input type="text" id="name" name="name" placeholder="Username"><br>
+                        </div>
+                        <div>
+                            <label for="name"></label><br>
+                            <input type="password" id="name" name="name" placeholder="Password">
+                        </div>
+                    </form>
+                </div>
+                <button class="button button2 ">Login</button>
+                <p class="login text-center mt-4">
+                    Don't have account yet? </span> <span class="span">Register</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- notification -->
+
+    <div class="notification">
+        <div class="width">
+            <img class="previous" src="img/previous.png" />
+            <div class="heading mt-5 w-60 text-center">Notification</div>
+            <div class="section-heading text-center mt-5">New</div>
+            <div class="notification-tabs">
+                <div class="tab d-flex mt-2">
+                    
+                    <div class="content mx-4 d-flex flex-column">
+                        <p class="text-1">29 June 2021, 7.14 PM</p>
+                        <p class="text-2">You received Rp 100.000 from Alexandr Gibson Jogja</p>
+                        <div class="text-3">'Pay debt'</div>
+                        
+                    </div>
+                    <img class="img" src="img/notification_up_green.png" />
+                </div>
+                <div class="tab d-flex mt-2">
+                    <div class="content mx-4 d-flex flex-column">
+                        <p class="text-1">29 June 2021, 9.02 AM</p>
+                        <p class="text-2">You spent Rp 32.000 for Coffe Cetar back Tugu Sentral</p>
+                        <div class="text-3">'Buy drink'</div>
+                        
+                    </div>
+                    <img class="img" src="img/notification_dropdown_red.png" />
+                </div>
+            </div>
+            <div class="section-heading text-center mt-3">Recent</div>
+            <div class="notification-tabs ">
+                <div class="tab d-flex mt-2 flex-row">
+                    
+                    <div class="content mx-4  d-flex  flex-column">
+                        <p class="text-1">28 June 2021, 8.32 PM</p>
+                        <p class="text-2">You spent Rp 210.000 for pay Tokosbla ijo mera</p>
+                        <div class="text-3">'Buy items'</div>
+
+                        
+                    </div>
+                    <img class="img" src="img/notification_dropdown_red.png" />
+                </div>
+                <div class="tab mt-2 d-flex">
+                    <div class="content mx-4 d-flex flex-column">
+                        <p class="text-1">28 June 2021, 8.32 PM</p>
+                        <p class="text-2">You spent Rp 210.000 for pay Tokosbla ijo mera</p>
+                        <div class="text-3">'Buy items'</div>
+                        
+                    </div>
+                    <img class="img" src="img/notification_dropdown_red.png" />
+                </div>
+                <div class="tab mt-2 d-flex">
+                    <div class="content mx-4  flex-column">
+                        <p class="text-1">28 June 2021, 8.32 PM</p>
+                        <p class="text-2">You spent Rp 210.000 for pay Tokosbla ijo mera</p>
+                        <div class="text-3">'Buy items'</div>
+
+                        
+                    </div>
+                    <img class="img" src="img/notification_dropdown_red.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- settings -->
+
+    <div class="settings ">
+        <div class="width ">
+            <img class="previous" src="img/previous.png" />
+            <div class="heading mt-5 text-center">Settings</div>
+            <div class="content row mt-5">
+                <div class="col-sm-12">
+                    <div class="tab d-flex">
+                        <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                        <img class="icon" src="img/settings_profile.png" alt="">
+                        <p class="text">Profile</p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="tab d-flex">
+                        <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                        <img class="icon" src="img/settings_notificatio.png" alt="">
+                        <p class="text">Notifications</p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="tab d-flex">
+                        <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                        <img class="icon" src="img/settings_wallet.png" alt="">
+                        <p class="text">Your Wallet</p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="tab d-flex">
+                        <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                        <img class="icon" src="img/settings_login.png" alt="">
+                        <p class="text">Login Settings</p>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="tab d-flex">
+                        <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                        <img class="icon" src="img/settings_service.png" alt="">
+                        <p class="text">Service Center</p>
+                    </div>
+                </div>
+            </div>
+            <div class="log-out">
+                <div class="circle position-absolute mt-5"></div>
+                <a class href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                <div class="text text-center mt-3">Log Out</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- settings 2 -->
+
+    <div class="settings2">
+        <div class="settings">
+            <div class="width">
+                <img class="previous" src="img/previous.png" />
+                <div class="profile position-relative mt-5">
+                    <div class="profile-picture"><img src="img/profile_picture.webp" alt=""></div>
+                    <div class="heading">Jaka <i class="fa-regular fa-pen-to-square"></i>
+                    <p>change</p>
+                    </div>
+                </div>
+                
+                <div class="content row mt-5">
+                    <div class="col-sm-12">
+                        <div class="tab d-flex">
+                            <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                            <p class="text">Connected Account</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="tab d-flex">
+                            <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                            <p class="text">Privacy and security</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="tab d-flex">
+                            <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                            <p class="text">Login Settings</p>
+                        </div>
+                    </div>
+                    <div class=" col-sm-12">
+                        <div class="tab d-flex">
+                            <a href=""><i class="fa-solid fa-angle-right"></i></a>
+                            <p class="text">Login Service Center</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="log-out mt-5">
+                    <div class="circle position-absolute mt-5"></div>
+                    <a class href=""><i class="fa-solid fa-trash-can"></i></a>
+                    <div class="text text-center mt-3">Delete Account</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
